@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+main{
+    font-family: "Robot", Verdana, Geneva, Tahoma, sans-serif;
+}
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(image/views.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0rem 5rem;
+}
+.navs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh ;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    padding-left:3rem;
+    font-size:2.5vmin;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(223, 213, 213);
+}
+#logo{
+    font-family:"Robot", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 3vmin;
+    letter-spacing: 2px;
+    color:rgb(223, 213, 213);
+}
+.cont{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    color: rgb(26, 25, 25);
+}
+p{
+    text-align: center;
+    line-height: 2em;
+}
+.intro{
+    background: #000;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider{
+    background: rgb(99, 90, 90);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100vh;
+    transform: translateY(100%);
+}
+.intro-text{ 
+    color: rgb(197, 190, 190);
+    font-size: 1.5vmin;
+    font-family:"Robot", Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 4em;
+}
+.hide{
+   background: black;
+   overflow: hidden;
+
+}
+.hide span{
+    transform:translateY(100%);
+    display: inline-block;
+}
+
+.big{
+    color: rebeccapurple;
+    /* color: rgb(26, 25, 25); */
+    font-size: 3.5vmin;
+    font-weight: 400;
+
+
+}
